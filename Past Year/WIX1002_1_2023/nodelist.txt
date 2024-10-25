@@ -1,0 +1,233 @@
+NodeName=cpu01 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=16 CPUTot=64 CPULoad=64.02
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu01 NodeHostName=cpu01 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=35840 FreeMem=230493 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-04-27T11:50:08 SlurmdStartTime=2022-05-11T07:47:10
+   LastBusyTime=2022-12-05T23:38:26
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=16,mem=35G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu03 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=64 CPUTot=64 CPULoad=62.67
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu03 NodeHostName=cpu03 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=239616 FreeMem=138345 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-03-22T09:34:59 SlurmdStartTime=2022-05-11T07:47:09
+   LastBusyTime=2022-12-06T18:46:53
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=64,mem=234G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu04 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=64 CPUTot=64 CPULoad=63.57
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu04 NodeHostName=cpu04 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=239616 FreeMem=201636 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-04-15T10:10:38 SlurmdStartTime=2022-05-11T07:47:09
+   LastBusyTime=2022-12-04T22:21:28
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=64,mem=234G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+ NodeName=cpu05 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=64 CPUTot=64 CPULoad=64.04
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu05 NodeHostName=cpu05 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=239616 FreeMem=217162 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-04-27T11:50:10 SlurmdStartTime=2022-05-11T07:47:35
+   LastBusyTime=2022-12-02T11:55:56
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=64,mem=234G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu07 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=32 CPUTot=64 CPULoad=16.01
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu07 NodeHostName=cpu07 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=102400 FreeMem=194105 Sockets=8 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-09-22T14:12:59 SlurmdStartTime=2022-09-22T14:13:45
+   LastBusyTime=2022-12-02T11:55:56
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=32,mem=100G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu08 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=64 CPUTot=64 CPULoad=64.11
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu08 NodeHostName=cpu08 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=35840 FreeMem=234419 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-11-26T00:56:34 SlurmdStartTime=2022-11-26T00:57:19
+   LastBusyTime=2022-12-06T22:14:02
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=64,mem=35G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu09 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=48 CPUTot=64 CPULoad=64.17
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu09 NodeHostName=cpu09 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=35840 FreeMem=227264 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-03-22T09:33:49 SlurmdStartTime=2022-05-11T07:47:26
+   LastBusyTime=2022-12-03T18:39:49
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=48,mem=35G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu10 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=16 CPUTot=64 CPULoad=64.47
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu10 NodeHostName=cpu10 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=35840 FreeMem=231760 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-11-26T00:59:13 SlurmdStartTime=2022-11-26T00:59:57
+   LastBusyTime=2022-12-06T18:25:40
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=16,mem=35G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu11 Arch=x86_64 CpuBind=ldoms CoresPerSocket=8
+   CPUAlloc=64 CPUTot=64 CPULoad=64.07
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu11 NodeHostName=cpu11 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=239616 FreeMem=188609 Sockets=8 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-opteron
+   BootTime=2022-11-30T10:44:28 SlurmdStartTime=2022-11-30T10:45:12
+   LastBusyTime=2022-12-05T09:11:48
+   CfgTRES=cpu=64,mem=240000M,billing=16000
+   AllocTRES=cpu=64,mem=234G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu12 Arch=x86_64 CpuBind=ldoms CoresPerSocket=24
+   CPUAlloc=96 CPUTot=96 CPULoad=46.35
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu12 NodeHostName=cpu12 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=148480 FreeMem=208482 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-epyc
+   BootTime=2022-09-24T23:14:23 SlurmdStartTime=2022-09-24T23:15:10
+   LastBusyTime=2022-12-02T11:55:56
+   CfgTRES=cpu=96,mem=240000M,billing=36000
+   AllocTRES=cpu=96,mem=145G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu13 Arch=x86_64 CpuBind=ldoms CoresPerSocket=24
+   CPUAlloc=96 CPUTot=96 CPULoad=43.01
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu13 NodeHostName=cpu13 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=239616 FreeMem=194072 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-epyc
+   BootTime=2022-11-26T01:56:19 SlurmdStartTime=2022-11-26T01:57:14
+   LastBusyTime=2022-12-07T07:07:50
+   CfgTRES=cpu=96,mem=240000M,billing=36000
+   AllocTRES=cpu=96,mem=234G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu14 Arch=x86_64 CpuBind=ldoms CoresPerSocket=24
+   CPUAlloc=96 CPUTot=96 CPULoad=48.36
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu14 NodeHostName=cpu14 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=204800 FreeMem=216835 Sockets=2 Boards=1
+   State=ALLOCATED+RESERVED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-epyc
+   BootTime=2022-11-28T09:33:07 SlurmdStartTime=2022-11-28T09:34:03
+   LastBusyTime=2022-12-02T11:55:56
+   CfgTRES=cpu=96,mem=240000M,billing=36000
+   AllocTRES=cpu=96,mem=200G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=cpu15 Arch=x86_64 CpuBind=ldoms CoresPerSocket=24
+   CPUAlloc=32 CPUTot=96 CPULoad=46.47
+   AvailableFeatures=(null)
+   ActiveFeatures=(null)
+   Gres=(null)
+   NodeAddr=cpu15 NodeHostName=cpu15 Version=21.08.8-2
+   OS=Linux 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021
+   RealMemory=240000 AllocMem=35840 FreeMem=203088 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=cpu-epyc
+   BootTime=2022-10-05T18:45:43 SlurmdStartTime=2022-10-05T18:46:30
+   LastBusyTime=2022-12-07T08:22:48
+   CfgTRES=cpu=96,mem=240000M,billing=36000
+   AllocTRES=cpu=32,mem=35G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
