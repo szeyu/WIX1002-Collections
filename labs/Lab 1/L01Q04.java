@@ -2,7 +2,7 @@ public class L01Q04 {
     public static int maximum(int[] amount){
         int max = amount[0];
         for(int i = 1; i < amount.length; i++){
-            if(amount[i] < max){
+            if(amount[i] > max){
                 max = amount[i];
             }
         }
